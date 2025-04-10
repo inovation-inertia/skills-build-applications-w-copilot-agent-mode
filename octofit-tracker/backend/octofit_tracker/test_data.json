@@ -1,0 +1,22 @@
+{
+    "users": [
+        {"email": "john.doe@example.com", "name": "John Doe", "age": 25},
+        {"email": "jane.smith@example.com", "name": "Jane Smith", "age": 30}
+    ],
+    "teams": [
+        {"name": "Team Alpha", "description": "A test team for alpha users."},
+        {"name": "Team Beta", "description": "A test team for beta users."}
+    ],
+    "activities": [
+        {"user_email": "john.doe@example.com", "activity_type": "Running", "duration": 30, "timestamp": "2025-04-10T10:00:00Z"},
+        {"user_email": "jane.smith@example.com", "activity_type": "Cycling", "duration": 45, "timestamp": "2025-04-10T11:00:00Z"}
+    ],
+    "leaderboard": [
+        {"user_email": "john.doe@example.com", "points": 100, "rank": 1},
+        {"user_email": "jane.smith@example.com", "points": 80, "rank": 2}
+    ],
+    "workouts": [
+        {"name": "Morning Yoga", "description": "A relaxing yoga session.", "difficulty": "Easy"},
+        {"name": "HIIT Training", "description": "High-intensity interval training.", "difficulty": "Hard"}
+    ]
+}
